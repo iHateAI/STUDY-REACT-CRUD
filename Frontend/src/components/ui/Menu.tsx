@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useNavigate } from "react-router-dom";
 
 const StyledList = styled.ul`
   list-style: none;
@@ -17,8 +16,6 @@ const StyledItem = styled.li`
 `;
 
 function Menu(props: any): JSX.Element {
-  
-
   return (
     <StyledList>
       <StyledItem>글 목록</StyledItem>
